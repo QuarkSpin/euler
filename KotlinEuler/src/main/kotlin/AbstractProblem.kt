@@ -1,3 +1,3 @@
 interface IProblem<T> {
-    fun Solve(): T
+    fun solve(): T
 }
