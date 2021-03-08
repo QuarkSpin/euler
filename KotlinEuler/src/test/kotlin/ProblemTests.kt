@@ -8,4 +8,7 @@ internal class ProblemTests {
 
     @Test
     fun problem002Test() = assertEquals(4613732, Problem002().solve())
+
+    @Test
+    fun problem003Test() = assertEquals(6857, Problem003().solve())
 }
