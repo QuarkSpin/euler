@@ -14,4 +14,7 @@ internal class ProblemTests {
 
     @Test
     fun problem004Test() = assertEquals(906609, Problem004().solve())
+
+    @Test
+    fun problem005Test() = assertEquals(232792560, Problem005().solve())
 }

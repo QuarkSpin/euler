@@ -10,6 +10,7 @@ Practicing programming languages with [Project Euler](https://projecteuler.net).
 | 002 | 4613732 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem002.kt) |
 | 003 | 6857 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem003.kt) |
 | 004 | 906609 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem004.kt) |
+| 005 | 232792560 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem005.kt) |
 
 ## License
 
