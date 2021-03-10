@@ -67,4 +67,25 @@ internal class MathTests {
             Pair((1L..20L), 232792560L),
         ).forEach { assertEquals(it.second, it.first.lcm()) }
     }
+
+    @Test
+    fun nextPrimeTest() {
+        arrayOf(
+            Pair(0L, 2L),
+            Pair(1L, 2L),
+            Pair(2L, 3L),
+            Pair(3L, 5L),
+            Pair(73L, 79L),
+            Pair(74L, 79L),
+            Pair(75L, 79L)
+        ).forEach { assertEquals(it.second, it.first.nextPrime()) }
+    }
+
+    @Test
+    fun primesTest() {
+        assertEquals(
+            listOf<Long>(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97),
+            primes().take(25).toList()
+        )
+    }
 }

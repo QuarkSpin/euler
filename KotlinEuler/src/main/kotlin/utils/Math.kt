@@ -26,12 +26,12 @@ fun Long.primeFactors(): MutableList<Long> {
     val factors = mutableListOf<Long>()
     var d = 2L
     while (n > 1) {
-        while (n % d == 0L){
+        while (n % d == 0L) {
             factors.add(d)
             n /= d
         }
         d++
-        if (d*d > n) {
+        if (d * d > n) {
             if (n > 1) factors.add(n)
             break
         }
@@ -48,3 +48,24 @@ fun gcd(a: Long, b: Long): Long = if (b == 0L) a else gcd(b, a % b)
 fun lcm(a: Long, b: Long): Long = a * b / gcd(a, b)
 
 fun Iterable<Long>.lcm(): Long = this.reduce { a, b -> lcm(a, b) };
+
+fun Long.nextPrime(): Long {
+    if (this <= 1) return 2
+    if (this == 2L) return 3
+
+    var n = if (this % 2L == 0L) this + 1 else this + 2
+
+    while (!n.isPrime()) {
+        n += 2
+    }
+
+    return n
+}
+
+fun primes() = sequence {
+    var prime = 2L
+    while (true) {
+        yield(prime)
+        prime = prime.nextPrime()
+    }
+}
