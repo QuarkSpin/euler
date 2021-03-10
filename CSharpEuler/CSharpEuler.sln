@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpEuler", "CSharpEuler\CSharpEuler.csproj", "{D297B636-B9A1-449F-A323-9CF702A9DF95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEulerTests", "CSharpEulerTests\CSharpEulerTests.csproj", "{AAEB7385-5CCA-4D51-9EF6-5BC7963CD55B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D297B636-B9A1-449F-A323-9CF702A9DF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D297B636-B9A1-449F-A323-9CF702A9DF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D297B636-B9A1-449F-A323-9CF702A9DF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D297B636-B9A1-449F-A323-9CF702A9DF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEB7385-5CCA-4D51-9EF6-5BC7963CD55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEB7385-5CCA-4D51-9EF6-5BC7963CD55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEB7385-5CCA-4D51-9EF6-5BC7963CD55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEB7385-5CCA-4D51-9EF6-5BC7963CD55B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DDB6380-7A1C-492B-A3AB-780F44EA25BE}
+	EndGlobalSection
+EndGlobal

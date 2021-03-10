@@ -6,7 +6,7 @@ Practicing programming languages with [Project Euler](https://projecteuler.net).
 
 | Problem | Answer | Code |
 |---------|--------|--------|
-| [001](https://projecteuler.net/problem=1) | 233168 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem001.kt) |
+| [001](https://projecteuler.net/problem=1) | 233168 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem001.kt), [C#](./CSharpEuler/CSharpEuler/Problem001.cs) |
 | [002](https://projecteuler.net/problem=2) | 4613732 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem002.kt) |
 | [003](https://projecteuler.net/problem=3) | 6857 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem003.kt) |
 | [004](https://projecteuler.net/problem=4) | 906609 | [Kotlin](./KotlinEuler/src/main/kotlin/Problem004.kt) |
