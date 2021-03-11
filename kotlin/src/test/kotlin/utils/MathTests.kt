@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 internal class MathTests {
 
     @Test
-    fun fibonacciTest() {
+    fun fibonacciTest() { // TEST CORRECT FUNCTION
         arrayOf(
             Pair(listOf<Long>(1, 2, 3, 4, 5), 60L),
             Pair(listOf<Long>(12, 15, 10, 75), 300L),
